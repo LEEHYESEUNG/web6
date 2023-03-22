@@ -1,0 +1,31 @@
+body{ font-family: -apple-system, BlinkMacSystemFont, HelveticaNeue, AppleSDGothicNeo, sans-serif; font-size: 14px; line-height: 1.25em; background-color: #e9ecef; width: 100%; }
+body.overflow{overflow-y: hidden;}
+.wrapper{ min-width: 360px; }
+.blind{ position: absolute; overflow: hidden; width: 1px; height: 1px; clip: rect(0 0 0 0); margin: -1px; }
+
+
+.header .header-group .util-group .logo::before,
+.header .shopping::before,
+.header .header-group .search-area .search-voice::after,
+.header .header-group .search-area .search-camera::after,
+.header .gnb .gnb-area .btn-all::after,
+.header .link-item.link-mr::after,
+.header .link-item.link-best::after,
+.header .link-item.link-live::after,
+.header .link-item.link-aitems::after,
+.footer .policy-area .title-box .link-more::after,
+.footer .move-to-top .btn-top::after,
+.footer .info .naver-info::after,
+.footer-logo
+
+{
+    background-image: url(/asset/img/icon-sp\(286\,267\).png);
+    background-size: 286px 267px;
+}
+
+
+.footer .add-shopping .btn-add .icon
+{
+    background: url(/asset/img/naver-icon.png);
+    background-size: 64px 43px;
+}

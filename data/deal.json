@@ -1,0 +1,41 @@
+{
+    "items":[
+        {
+            "thumb":"./asset/img/deal_1_main.jpg",
+            "cropthumb":"./asset/img/deal_1_crop.jpg",
+            "title":"가시제거연구소 고등어밥상 오렌지라벨 800g+800g 순살고등어",
+            "person":"2,381",
+            "percent":"18%",
+            "price":"25,900원",
+            "maxprice":"23,650"
+        },
+        {
+            "thumb":"./asset/img/deal_2_main.jpg",
+            "cropthumb":"./asset/img/deal_2_crop.jpg",
+            "title":"올반 크런치 찰핫도그 10봉+10봉",
+            "person":"3,339",
+            "percent":"50%",
+            "price":"18,900원",
+            "maxprice":"17,900"
+        },
+        {
+            "thumb":"./asset/img/deal_3_main.jpg",
+            "cropthumb":"./asset/img/deal_3_crop.jpg",
+            "title":"팸퍼스 2023 베이비드라이 팬티 기저귀 1박스 3~6단계 2팩+2팩",
+            "person":"1,866",
+            "percent":"3%",
+            "price":"65,900원",
+            "maxprice":"55,900"
+        },
+        {
+            "thumb":"./asset/img/deal_4_main.jpg",
+            "cropthumb":"./asset/img/deal_4_crop.jpg",
+            "title":"3차 앵콜, 무농약 해남 꿀고구마 2.5kg+2.5kg 대 사이즈(총5kg)",
+            "person":"2,266",
+            "percent":"66%",
+            "price":"9,900원",
+            "maxprice":""
+        }
+    ]
+}
+

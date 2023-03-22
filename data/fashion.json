@@ -1,0 +1,45 @@
+{
+    "items":[
+        {
+            "thumb":"./asset/img/fashion-prd1.jpg",
+            "title":"언제나 사랑받는 청 원피스",
+            "crop":"자체 제작",
+            "bold":""
+        },
+        {
+            "thumb":"./asset/img/fashion-prd2.jpg",
+            "title":"자연스러운 플레어 라인 스커트",
+            "crop":"쿠폰",
+            "bold":""
+        },
+        {
+            "thumb":"./asset/img/fashion-prd3.jpg",
+            "title":"벨트 하이웨스트 슬랙스",
+            "crop":"",
+            "bold":"34%"
+        },
+        {
+            "thumb":"./asset/img/fashion-prd4.jpg",
+            "title":"데일리 미니 귀걸이 추천",
+            "crop":"9천 원대",
+            "bold":""
+        },
+        {
+            "thumb":"./asset/img/fashion-prd5.jpg",
+            "title":"메리제인 스트랩 펌프스",
+            "crop":"",
+            "bold":"4cm"
+        },
+        {
+            "thumb":"./asset/img/fashion-prd6.jpg",
+            "title":"옷장 속 필수! 트위드재킷",
+            "crop":"",
+            "bold":"할인"
+        }
+    ]
+}
+
+
+
+   
+

@@ -1,0 +1,34 @@
+{
+    "items":[
+        {
+            "thumb":"./asset/img/brand1.jpg",
+            "title":"드비알레 공식스토어"
+        },
+        {
+            "thumb":"./asset/img/brand2.jpg",
+            "title":"aonebaby"
+        },
+        {
+            "thumb":"./asset/img/brand3.jpg",
+            "title":"바이 오디-티디 공식"
+        },
+        {
+            "thumb":"./asset/img/brand4.jpg",
+            "title":"카린"
+        },
+        {
+            "thumb":"./asset/img/brand5.jpg",
+            "title":"트렉스타"
+        },
+        {
+            "thumb":"./asset/img/brand6.jpg",
+            "title":"브라이텍스"
+        },
+        {
+            "thumb":"./asset/img/brand7.jpg",
+            "title":"수앤진골드 공식 스토어"
+        }
+    ]
+}
+
+

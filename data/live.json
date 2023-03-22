@@ -1,0 +1,41 @@
+{
+    "items":[
+        {
+            "thumb":"./asset/img/live_1.jpg",
+            "data":"3월 23일",
+            "time":"11:00",
+            "title":"[라이브 혜택] 완벽한 커피 한 잔, 일리",
+            "desc":"일리 캡슐 보관함 디스펜서 증정",
+            "subthumb":"./asset/img/live_crop_1.jpg",
+            "subtitle":"[LIVE] Y3.3 캡슐머신 베이직 스타터 패키지",
+            "percent":"",
+            "price":"판매예정",
+            "brand":"일리 공식몰"
+        },
+        {
+            "thumb":"./asset/img/live_2.jpg",
+            "data":"3월 23일",
+            "time":"11:00",
+            "title":"아가드 안전용품 특가전 LIVE",
+            "desc":"",
+            "subthumb":"./asset/img/live_crop_2.jpg",
+            "subtitle":"아가드 이지슬라이드 아기 침대가드 유아 낙상방지 안전가드 1.1m",
+            "percent":"43%",
+            "price":"44,990원",
+            "brand":"아가드"
+        },
+        {
+            "thumb":"./asset/img/live_3.jpg",
+            "data":"3월 23일",
+            "time":"11:00",
+            "title":"따뜻한 봄날~ 본베베 유아용품과 함께!",
+            "desc":"",
+            "subthumb":"./asset/img/live_crop_3.jpg",
+            "subtitle":"국민 아기매트 본베베 유아 국민 거실 폴더매트",
+            "percent":"97%",
+            "price":"20,900원",
+            "brand":"본베베"
+        }
+    ]
+}
+

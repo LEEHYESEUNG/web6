@@ -1,0 +1,56 @@
+{
+    "items":[
+        {
+            "target":"#ordi",
+            "thumb":"./asset/img/toptop-brand1.jpg",
+            "title":"오디너리먼트"
+        },
+        {
+            "target":"",
+            "thumb":"./asset/img/toptop-brand2.jpg",
+            "title":"베이스바비"
+        },
+        {
+            "target":"",
+            "thumb":"./asset/img/toptop-brand3.jpg",
+            "title":"큐니걸스"
+        },
+        {
+            "target":"",
+            "thumb":"./asset/img/toptop-brand4jpg",
+            "title":"오브제스트"
+        },
+        {
+            "target":"",
+            "thumb":"./asset/img/toptop-brand5.jpg",
+            "title":"이즈카민"
+        },
+        {
+            "target":"",
+            "thumb":"./asset/img/toptop-brand6.jpg",
+            "title":"아이엠아이"
+        },
+        {
+            "target":"",
+            "thumb":"./asset/img/toptop-brand7.jpg",
+            "title":"세컨드세컨"
+        },
+        {
+            "target":"",
+            "thumb":"./asset/img/toptop-brand8.jpg",
+            "title":"데일리탭"
+        },
+        {
+            "target":"",
+            "thumb":"./asset/img/toptop-brand9.jpg",
+            "title":"로렌하이"
+        },
+        {
+            "target":"",
+            "thumb":"./asset/img/toptop-brand10.jpg",
+            "title":"완스몰"
+        }
+    ]
+}
+
+
