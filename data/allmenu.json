@@ -1,99 +1,99 @@
 {
     "items":[
         {
-            "icon":"/asset/img/cate-icon/move.png",
+            "icon":"./asset/img/cate-icon/move.png",
             "title":"이사&혼수시즌"
         },
         {
-            "icon":"/asset/img/cate-icon/woman.png",
+            "icon":"./asset/img/cate-icon/woman.png",
             "title":"여성패션"
         },
         {
-            "icon":"/asset/img/cate-icon/man.png",
+            "icon":"./asset/img/cate-icon/man.png",
             "title":"남성패션"
         },
         {
-            "icon":"/asset/img/cate-icon/cap.png",
+            "icon":"./asset/img/cate-icon/cap.png",
             "title":"액세사리"
         },
         {
-            "icon":"/asset/img/cate-icon/cosmetics.png",
+            "icon":"./asset/img/cate-icon/cosmetics.png",
             "title":"화장품/미용"
         },
         {
-            "icon":"/asset/img/cate-icon/furniture.png",
+            "icon":"./asset/img/cate-icon/furniture.png",
             "title":"가구/인테리어"
         },
         {
-            "icon":"/asset/img/cate-icon/food.png",
+            "icon":"./asset/img/cate-icon/food.png",
             "title":"식품"
         },
         {
-            "icon":"/asset/img/cate-icon/kid.png",
+            "icon":"./asset/img/cate-icon/kid.png",
             "title":"출산/유아동"
         },
         {
-            "icon":"/asset/img/cate-icon/pet.png",
+            "icon":"./asset/img/cate-icon/pet.png",
             "title":"반려동물용품"
         },
         {
-            "icon":"/asset/img/cate-icon/kitchen.png",
+            "icon":"./asset/img/cate-icon/kitchen.png",
             "title":"생활/주방용품"
         },
         {
-            "icon":"/asset/img/cate-icon/electro.png",
+            "icon":"./asset/img/cate-icon/electro.png",
             "title":"가전"
         },
         {
-            "icon":"/asset/img/cate-icon/digital.png",
+            "icon":"./asset/img/cate-icon/digital.png",
             "title":"디지털"
         },
         {
-            "icon":"/asset/img/cate-icon/computer.png",
+            "icon":"./asset/img/cate-icon/computer.png",
             "title":"컴퓨터"
         },
         {
-            "icon":"/asset/img/cate-icon/sport.png",
+            "icon":"./asset/img/cate-icon/sport.png",
             "title":"스포츠/레저"
         },
         {
-            "icon":"/asset/img/cate-icon/health.png",
+            "icon":"./asset/img/cate-icon/health.png",
             "title":"건강/의료용품"
         },
         {
-            "icon":"/asset/img/cate-icon/car.png",
+            "icon":"./asset/img/cate-icon/car.png",
             "title":"자동차/공구"
         },
         {
-            "icon":"/asset/img/cate-icon/hobby.png",
+            "icon":"./asset/img/cate-icon/hobby.png",
             "title":"취미/문구/악기"
         },
         {
-            "icon":"/asset/img/cate-icon/travel.png",
+            "icon":"./asset/img/cate-icon/travel.png",
             "title":"여행"
         },
         {
-            "icon":"/asset/img/cate-icon/ticket.png",
+            "icon":"./asset/img/cate-icon/ticket.png",
             "title":"E쿠폰/티켓"
         },
         {
-            "icon":"/asset/img/cate-icon/subscribe.png",
+            "icon":"./asset/img/cate-icon/subscribe.png",
             "title":"정기구독"
         },
         {
-            "icon":"/asset/img/cate-icon/Vegan.png",
+            "icon":"./asset/img/cate-icon/Vegan.png",
             "title":"친환경/인증"
         },
         {
-            "icon":"/asset/img/cate-icon/rent.png",
+            "icon":"./asset/img/cate-icon/rent.png",
             "title":"렌탈관"
         },
         {
-            "icon":"/asset/img/cate-icon/refur.png",
+            "icon":"./asset/img/cate-icon/refur.png",
             "title":"리퍼비시관"
         },
         {
-            "icon":"/asset/img/cate-icon/tax-free.png",
+            "icon":"./asset/img/cate-icon/tax-free.png",
             "title":"면세점"
         }
     ]
