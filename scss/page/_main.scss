@@ -1270,6 +1270,12 @@
             width: 16px;
             height: 16px;
             z-index: 1;
+            svg{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         }
         .text-area{
             height: 143px;
