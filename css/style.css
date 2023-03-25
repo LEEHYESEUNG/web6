@@ -1561,6 +1561,8 @@ body.overflow {
 }
 .sc-pick .codi-area img {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .sc-pick .codi-area .name {
   position: absolute;
