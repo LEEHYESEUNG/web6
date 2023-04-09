@@ -1,0 +1,46 @@
+{
+    "items":[
+        {
+            "thumb":"./asset/img/itgirl1.jpg",
+            "title":"우아한 레이어드룩",
+            "contents":"itgirl"
+        },
+        {
+            "thumb":"./asset/img/itgirl2.jpg",
+            "title":"취향 저격 스타일링",
+            "contents":"itgirl"
+        },
+        {
+            "thumb":"./asset/img/itgirl3.jpg",
+            "title":"부담 없이 즐겨요",
+            "contents":"itgirl"
+        },
+        {
+            "thumb":"./asset/img/itgirl4.jpg",
+            "title":"회사해지는 인테리어",
+            "contents":"itgirl"
+        },
+        {
+            "thumb":"./asset/img/women1.jpg",
+            "title":"우아한 레이어드룩",
+            "contents":"women"
+        },
+        {
+            "thumb":"./asset/img/women2.jpg",
+            "title":"부담 없이 즐겨요",
+            "contents":"women"
+        },
+        {
+            "thumb":"./asset/img/women3.jpg",
+            "title":"화사해지는 인테리어",
+            "contents":"women"
+        },
+        {
+            "thumb":"./asset/img/women4.jpg",
+            "title":"손목을 빛나게",
+            "contents":"women"
+        }
+    ]
+}
+
+

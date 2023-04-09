@@ -1,0 +1,40 @@
+{
+    "items":[
+        {
+            "thumb":"./asset/img/new1.jpg",
+            "title":"데님팬츠 할인"
+        },
+        {
+            "thumb":"./asset/img/new2.jpg",
+            "title":"입기좋은 재킷"
+        },
+        {
+            "thumb":"./asset/img/new3.jpg",
+            "title":"봄신상 티셔츠"
+        },
+        {
+            "thumb":"./asset/img/new4.jpg",
+            "title":"에스닉 로브!"
+        },
+        {
+            "thumb":"./asset/img/new5.jpg",
+            "title":"투피스~43% 세일"
+        },
+        {
+            "thumb":"./asset/img/new6.jpg",
+            "title":"66,77셋업 세트"
+        },
+        {
+            "thumb":"./asset/img/new7.jpg",
+            "title":"S/S제작 카디건"
+        },
+        {
+            "thumb":"./asset/img/new8.jpg",
+            "title":"배색니트 카디건"
+        },
+        {
+            "thumb":"./asset/img/new9.jpg",
+            "title":"빅사이즈 스커트"
+        }
+    ]
+}
