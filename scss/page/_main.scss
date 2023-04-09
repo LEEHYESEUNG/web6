@@ -947,7 +947,6 @@
             position: absolute;
             bottom: 10px;
             left: 0;
-            background-color: rgba(244,153,157,.9);
             width: 111px;
             height: 32px;
             padding: 9px 8px 11px 11px;
@@ -963,6 +962,16 @@
             color: #fff;
             word-break: break-all;
             letter-spacing: -.5px;
+        }
+        #womenList{
+            .text-box{
+                background-color: rgba(160,108,213,.9);
+             }
+        }
+        #itgirlList{
+            .text-box{
+                background-color: rgba(244,153,157,.9);
+            }
         }
     }
     .best-group{
