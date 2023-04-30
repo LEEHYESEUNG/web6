@@ -760,7 +760,7 @@
         height: 60px;
         width: 100%;
         padding: 0;
-        background: url(/asset/img/header-bg.png) no-repeat;
+        background: url(../asset/img/header-bg.png) no-repeat;
         background-size : cover;
         .title{
             height: 100%;
@@ -848,7 +848,7 @@
             position: absolute;
             top: 0;
             right: 0;
-            background: url(/asset/img/patern.png) no-repeat;
+            background: url(../asset/img/patern.png) no-repeat;
             background-size: 275px auto;
             width: 135px;
             height: 60px;
@@ -1480,11 +1480,11 @@
             width: 26px;
             height: 26px;
             &.all-foryou{
-                background: url(/asset/img/allsevice_foryou.png);
+                background: url(../asset/img/allsevice_foryou.png);
                 background-size: 26px 26px;
             }
             &.all-cart{
-                background: url(/asset/img/allservice_cart.png);
+                background: url(../asset/img/allservice_cart.png);
                  background-size: 26px 26px;
             }
         }
