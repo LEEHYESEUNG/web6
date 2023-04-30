@@ -193,7 +193,7 @@
     }
     .content-area{
         padding: 0 10px 34px;
-        margin-top: -48px;            
+        margin-top: -48px;    
     }
     .login-area{
         position: absolute;
@@ -222,6 +222,7 @@
             }
         }
         .desc{
+            display: block;
             margin-top: 3px;
             font-size: 14px;
             color: #999;
@@ -281,6 +282,7 @@
             text-align: center;
         }
         .title{
+            display: block;
             margin-top: 5px;
         }
     }
@@ -419,6 +421,7 @@
         display: flex;
         flex-wrap: wrap;
     }
+        
     .service-item{
         height: 44px;
         line-height: 44px;
@@ -532,6 +535,7 @@
                     width: 39px;
                     height: 13px;
                     margin-top: 15px;
+
                 }
             }
             &.link-live{
