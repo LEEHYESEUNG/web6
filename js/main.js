@@ -8,7 +8,6 @@ $(function(){
    * @author 
    * @pram
   */
-
   $(window).scroll(function(){
 
     const headerHeight = $('.header .header-group').outerHeight();
@@ -23,9 +22,6 @@ $(function(){
     };
   });
 
-
-
-
   /**
    * gnb all
    *
@@ -34,7 +30,6 @@ $(function(){
    * @author 
    * @pram
   */
-
     $('.gnb .btn-all').click(function(){
 
     $('.gnb .btn-all').toggleClass('active');
@@ -42,9 +37,6 @@ $(function(){
     $('.gnb .text').toggleClass('active');
     $('.gnb .all-gnb-area').toggleClass('active');
     });
-
-
-
 
   /**
    * menu open
@@ -86,10 +78,6 @@ $(function(){
     $(spell).addClass('active').siblings().removeClass('active');
   });
 
-
-
-
-
   /**
    * sc-visual
    *
@@ -113,9 +101,6 @@ $(function(){
     },
   });
 
-
-  
-
   /**
    * live-notice-slide
    *
@@ -135,9 +120,6 @@ $(function(){
       el: ".swiper-pagination",
     },
   });
-
-
-
 
   /**
    * live
@@ -166,19 +148,19 @@ $(function(){
               </div>
           </div>
           <div class="text-box">
-            <p class="title">${element.title}</p>
-            <p class="desc">${element.desc}</p>
+            <span class="title">${element.title}</span>
+            <span class="desc">${element.desc}</span>
             <div class="sub-box">
                 <img src="${element.subthumb}" alt="">
                 <div class="sub-text-box">
-                    <p class="sub-title">${element.subtitle}</p>
+                    <span class="sub-title">${element.subtitle}</span>
                     <div class="price-box">
                         <span class="percent">${element.percent}</span>
                         <em class="price">${element.price}</em>
                     </div>
                 </div>
             </div>
-            <p class="barnd-name">${element.brand}</p>
+            <span class="barnd-name">${element.brand}</span>
             <button class="alarm-box">
                 <span class="alarm-icon">
                     <svg width="18" height="15" viewBox="0 0 18 15" fill="none" class="liveCalendar_icon__3aU55"><mask id="iconBellPlus_18x15_red_svg__a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="0" width="14" height="15"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.958.5H2v13.75h13.958V13H12.5v-2.5H11V6h4.958V.5z" fill="#C8C8C8"></path></mask><g mask="url(#iconBellPlus_18x15_red_svg__a)"><mask id="iconBellPlus_18x15_red_svg__b" fill="#fff"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.875 1.75a4.583 4.583 0 00-4.583 4.583v3.5l-1 1.917h11.166l-1-1.917v-3.5A4.583 4.583 0 008.875 1.75z"></path></mask><path d="M4.292 9.834l.886.463a1 1 0 00.114-.463h-1zm-1 1.916l-.887-.463a1 1 0 00.887 1.463v-1zm1 0v1-1zm9.166 0v1-1zm1 0v1a1 1 0 00.887-1.463l-.886.463zm-1-1.917l.887-.462a1 1 0 00-.886-.538v1zm0 0h-1a1 1 0 001 1v-1zm-8.166-3.5A3.583 3.583 0 018.875 2.75v-2a5.583 5.583 0 00-5.583 5.583h2zm0 3.5v-3.5h-2v3.5h2zm-1.114 2.38l1-1.916-1.773-.926-1 1.916 1.773.926zm.114-1.463h-1v2h1v-2zm9.166 0H4.292v2h9.166v-2zm1 0h-1v2h1v-2zm-1.886-.454l1 1.917 1.773-.925-1-1.917-1.773.925zm.886.537v-2 2zm-1-4.5v3.5h2v-3.5h-2zM8.875 2.75a3.583 3.583 0 013.583 3.583h2c0-3.083-2.5-5.583-5.583-5.583v2z" fill="red" mask="url(#iconBellPlus_18x15_red_svg__b)"></path><path d="M6.64 11.632a2.293 2.293 0 004.47 0" stroke="red" stroke-linejoin="round"></path></g><path d="M14.708 6.333v5.834m2.917-2.917H11.79" stroke="red" stroke-width="1.25"></path></svg>
@@ -193,9 +175,6 @@ $(function(){
     $('#liveList').html(html);
   });
 
-
-  
-
   /**
    * trand pick
    *
@@ -204,7 +183,6 @@ $(function(){
    * @author 
    * @pram
   */
-
   fetch('./data/newitem.json')
   .then((response) => response.json())
   .then((json) => {
@@ -217,7 +195,7 @@ $(function(){
         html+= `<li class="pick-item">
                     <a href="" class="link-item">
                         <img src="${element.thumb}" alt="${element.title}">
-                        <p class="title">${element.title}</p>
+                        <span class="title">${element.title}</span>
                     </a> 
                 </li>`;
      });
@@ -233,9 +211,6 @@ $(function(){
     $(this).addClass('active').siblings().removeClass('active');
     $(pick).parent().addClass('active').siblings().removeClass('active');
   });
-
-
-
 
   /**
    * fashtion
@@ -263,7 +238,7 @@ $(function(){
         html+= `<li class="prd-item">
                     <a href="" class="link-item">
                         <img src="${element.thumb}" alt="${element.title}">
-                        <p class="title"><span class="bold">${element.bold}</span>${element.title}</p>
+                        <span class="title"><span class="bold">${element.bold}</span>${element.title}</span>
                         <div class="crop-box">${cropBg}</div>
                     </a>
                 </li>`;     
@@ -271,10 +246,7 @@ $(function(){
 
      $('#fashionList').html(html);  
   });
-    
- 
 
-    
 
   /**
    * rank
@@ -300,7 +272,7 @@ $(function(){
                 <a href="" class="link-item">
                   <img src="${element.thumb}" alt="${element.title}">
                     <div class="text-box">
-                    <p>${element.title}</p>
+                    <span>${element.title}</span>
                   </div>
                 </a>
               </li>`;
@@ -310,7 +282,7 @@ $(function(){
                 <a href="" class="link-item">
                   <img src="${element.thumb}" alt="${element.title}">
                     <div class="text-box">
-                    <p>${element.title}</p>
+                    <span>${element.title}</span>
                   </div>
                 </a>
               </li>`;
@@ -320,8 +292,6 @@ $(function(){
     $('#womenList').html(html2);  
   });
 
-
- 
 
   /**
    * rank-look
@@ -350,7 +320,7 @@ $(function(){
                   <a href="" class="link-item">
                       <img src="${element.thumb}" alt="${element.title}">
                       <div class="text-box">
-                          <p class="item-title">${element.title}</p>
+                          <span class="item-title">${element.title}</span>
                           <em class="price"><span>${element.price}</span>원</em>
                       </div>
                       <span class="crop-icon">${lookIndex}</span>
@@ -365,7 +335,7 @@ $(function(){
                    <a href="" class="link-item">
                        <img src="${element.thumb}" alt="${element.title}">
                        <div class="text-box">
-                           <p class="item-title">${element.title}</p>
+                           <span class="item-title">${element.title}</span>
                            <em class="price"><span>${element.price}</span>원</em>
                        </div>
                        <span class="crop-icon">${lookIndex}</span>
@@ -380,7 +350,7 @@ $(function(){
                   <a href="" class="link-item">
                       <img src="${element.thumb}" alt="${element.title}">
                       <div class="text-box">
-                          <p class="item-title">${element.title}</p>
+                          <span class="item-title">${element.title}</span>
                           <em class="price"><span>${element.price}</span>원</em>
                       </div>
                       <span class="crop-icon">${lookIndex}</span>
@@ -393,9 +363,6 @@ $(function(){
        $('#womenLook').html(html2);  
        $('#menLook').html(html3);    
   });
-
-
-
 
   /**
    * rank-all
@@ -418,7 +385,7 @@ $(function(){
                     <a href="" class="link-item">
                         <img src="${element.thumb}" alt="${element.title}">
                         <div class="text-box">
-                            <p class="item-title">${element.title}</p>
+                            <span class="item-title">${element.title}</span>
                             <em class="price"><span>${element.price}</span>원</em>
                         </div>
                         <span class="crop-icon">${buyIndex}</span>
@@ -464,9 +431,6 @@ $(function(){
     $(best).addClass('active').siblings().removeClass('active');
   });
 
-
-
-
   /**
    * brand
    *
@@ -494,9 +458,6 @@ $(function(){
  
       $('#brandList').html(html);  
   });
-
-
-
 
   /**
    * deal
@@ -564,9 +525,6 @@ $(function(){
       $('#dealList').html(html);  
   });
 
-
-
-
   /**
      * allmenu
      *
@@ -587,7 +545,7 @@ $(function(){
          html+= `<li class="cate-item"> 
                   <a href="" class="link-item"> 
                     <img src="${element.icon}" alt="${element.title}"> 
-                    <p class="title">${element.title}</p> 
+                    <span class="title">${element.title}</span> 
                   </a> 
                 </li>`;
       });
@@ -595,9 +553,6 @@ $(function(){
       $('#cateList').html(html);  
       $('#opencateList').html(html);  
   });
-
-
-
 
   /**
    * footer
@@ -621,14 +576,6 @@ $(function(){
     $(this).siblings('.addr-area').toggleClass('active');
 
   });
-
-
-
-
-  
-
-
-
 
 
 });
