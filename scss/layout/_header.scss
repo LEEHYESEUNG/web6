@@ -3,7 +3,7 @@
 }
 .header-group{   
     background-color: #00c73c;
-    background: url(../asset/img/header-bg.png) no-repeat;
+    background: url(/asset/img/header-bg.png) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -144,7 +144,7 @@
             &::before{
                 content: '';
                 display: block;
-                background-image: url(../asset/img/icon.png);
+                background-image: url(/asset/img/icon.png);
                 background-size: 659px 618px;
                 background-position: -260px -590px;
                 width: 24px;
@@ -182,7 +182,7 @@
         padding: 19px 16px;
         margin-left: auto;
         &::after{
-            background-image: url(../asset/img/icon.png);
+            background-image: url(/asset/img/icon.png);
             background-size: 659px 618px;
             background-position: -631px -356px;
             width: 24px;
@@ -709,4 +709,8 @@
             display: block;
         }
     }
+}
+// 전체서비스 아이콘 css
+.allService_icon_toptop__2OWun{
+    vertical-align: -5px;
 }
