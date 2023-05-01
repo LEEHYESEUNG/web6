@@ -117,6 +117,19 @@ body.overflow {
   background-size: 64px 43px;
 }
 
+.all-icon {
+  width: 26px;
+  height: 26px;
+}
+.all-icon.all-foryou {
+  background: url(../asset/img/allsevice_foryou.png);
+  background-size: 26px 26px;
+}
+.all-icon.all-cart {
+  background: url(../asset/img/allservice_cart.png);
+  background-size: 26px 26px;
+}
+
 .header {
   width: 100%;
 }
@@ -812,6 +825,10 @@ body.overflow {
 }
 .gnb .all-gnb-area.active {
   display: block;
+}
+
+.allService_icon_toptop__2OWun {
+  vertical-align: -5px;
 }
 
 .footer {
@@ -3220,16 +3237,4 @@ body.overflow {
   display: flex;
   align-items: center;
   gap: 7px;
-}
-.sc-allmenu .all-service .all-icon {
-  width: 26px;
-  height: 26px;
-}
-.sc-allmenu .all-service .all-icon.all-foryou {
-  background: url(../asset/img/allsevice_foryou.png);
-  background-size: 26px 26px;
-}
-.sc-allmenu .all-service .all-icon.all-cart {
-  background: url(../asset/img/allservice_cart.png);
-  background-size: 26px 26px;
 }
