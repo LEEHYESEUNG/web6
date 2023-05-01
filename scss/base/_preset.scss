@@ -29,3 +29,16 @@ body.overflow{overflow-y: hidden;}
     background: url(../asset/img/naver-icon.png);
     background-size: 64px 43px;
 }
+
+.all-icon{
+    width: 26px;
+    height: 26px;
+    &.all-foryou{
+        background: url(/asset/img/allsevice_foryou.png);
+        background-size: 26px 26px;
+    }
+    &.all-cart{
+        background: url(/asset/img/allservice_cart.png);
+         background-size: 26px 26px;
+    }
+}
